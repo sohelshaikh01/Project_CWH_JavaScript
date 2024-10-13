@@ -16,8 +16,8 @@ Feel free to explore the individual projects, understand the code, and try out y
 - **HTML**: For structuring the web pages.
 - **CSS**: For styling the elements and layouts.
 
-## Contributions
-
 📁 __Frontend Files/CWH JS Projects__
+
+## Contributions
 
 This repository is meant for personal exploration and learning purposes. However, contributions, improvements, and suggestions are always welcome!
