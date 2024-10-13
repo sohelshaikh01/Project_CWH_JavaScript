@@ -1,0 +1,68 @@
+/* CSS for Calculator using vanilla js*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 5px;
+}
+
+.container {
+    padding: 5px;
+    border-radius: 1rem;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.button {
+    padding: 18px 20px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 100px;
+    width: 55px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row {
+    margin: 7px 0;
+}
+
+.row input {
+    max-width: 360px;
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 20px;
+    padding: 11px 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .container {
+        max-width: 320px;
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+    .row {
+        margin: 1px;
+    }
+    .row input {
+        max-width: 67vw;
+        margin-bottom: 1rem;
+    }
+    .button {
+        margin: 1px;
+        padding: 18px 7px;
+    }
+}

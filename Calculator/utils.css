@@ -1,0 +1,38 @@
+/* CSS for Calculator using vanilla js*/
+
+.text-center {
+    text-align: center;
+}
+
+.bg-grey {
+    background-color: rgb(100, 100, 100);
+}
+
+
+.mx-auto {
+    margin: auto;
+}
+
+.m-w {
+    max-width: 400px;
+}
+
+.grey-button {
+    background: rgb(155, 155, 155);
+}
+
+.orange-button {
+    background: orange;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}

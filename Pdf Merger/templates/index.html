@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf Merger Project</title>
+    <!-- <link rel="stylesheet" href="../styles.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0">
+    <nav class="flex justify-between items-center bg-slate-400 text-white text-xl mx-auto max-w-7xl py-3">
+        <div class="px-5 cursor-pointer">
+            Navbar
+        </div>
+        <ul class="flex justify-center items-center">
+            <li class="px-5">
+                <a href="#home">Home</a>
+            </li>
+            <li class="px-5">
+                <a href="#about">About</a>
+            </li>
+            <li class="px-5">
+                <a href="#options">Options</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="pt-20 p-4 mx-auto max-w-7xl h-[50vh] text-lg text-white bg-purple-600">
+        <div class="text-black ml-[30%] text-2xl font-semibold">
+            <h1>PdfX - Your Favorite Pdf Merger Tool</h1>
+        </div>
+
+        <form class="ml-[30%]" action="/merge" method="POST" enctype="multipart/form-data">
+            <div class="form-group mt-1">
+                <div>
+                    <label for="pdfFiles">Select the PDF files you want to merge:</label>
+                </div>
+                <div class="mt-2">
+                    <input type="file" class="rounded-lg bg-transparent text-white font-semibold border-[1px] border-black" name="pdfs" id="pdfFiles" accept=".pdf" multiple>
+                    <input type="submit" class="ml-4 cursor-pointer py-1 px-5 rounded-md border-2 border-white leading-6" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
