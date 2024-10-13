@@ -2,7 +2,8 @@
 
 Welcome to the **JavaScript Projects Repository**! This repository contains a collection of simple and interactive projects built using **JavaScript**, **HTML**, and **CSS**. Each project focuses on different concepts, making it easier to explore and understand various web development practices.
 
-![Simple JavaScript Projects](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbzw5HiLkO-BRSx64XSVbgmWLTMyrIeVc6NA&s)
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbzw5HiLkO-BRSx64XSVbgmWLTMyrIeVc6NA&s" alt"Simple JavaScript Projects" width="100" />
+
 ## Projects
 
 Each project is self-contained in its own folder, featuring its own HTML, CSS, and JavaScript files. These projects are designed to help you practice your skills, improve your understanding of the DOM, and enhance your overall web development knowledge.
