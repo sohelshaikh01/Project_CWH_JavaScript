@@ -18,4 +18,6 @@ Feel free to explore the individual projects, understand the code, and try out y
 
 ## Contributions
 
+📁 __Frontend Files/CWH JS Projects__
+
 This repository is meant for personal exploration and learning purposes. However, contributions, improvements, and suggestions are always welcome!
